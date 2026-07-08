@@ -37,8 +37,8 @@ import ManageProducts from "./Components/ManageProducts/ManageProducts";
 import EditProduct from "./Components/EditProduct/EditProduct";
 
 // Authentication
-import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
 
 // Protected Route
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
