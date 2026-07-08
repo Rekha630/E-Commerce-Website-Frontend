@@ -1,0 +1,39 @@
+.flash-sale {
+  padding: 50px;
+  background: #fff5f0;
+}
+
+.flash-sale h2 {
+  text-align: center;
+  color: #ff6600;
+  margin-bottom: 30px;
+}
+
+.flash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.flash-card {
+  background: white;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.flash-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flash-card button {
+  margin-top: 15px;
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.best-sellers {
+  padding: 60px 80px;
+  background: #f9f9f9;
+}
+
+.best-sellers h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.seller-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.seller-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.seller-card:hover {
+  transform: translateY(-8px);
+}
+
+.seller-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.seller-card h3,
+.seller-card .price {
+  padding: 10px 15px;
+}
+
+.seller-card button {
+  margin: 15px;
+  width: calc(100% - 30px);
+  padding: 10px;
+  background: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.seller-card button:hover {
+  background: #e65c00;
+}

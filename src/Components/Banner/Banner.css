@@ -1,0 +1,53 @@
+.banner {
+  background: linear-gradient(135deg, #ff6600, #ff9800);
+  color: white;
+  padding: 60px 5%;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.banner-text button {
+  background: white;
+  color: #ff6600;
+  border: none;
+  padding: 14px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.banner-image {
+  flex: 1;
+  text-align: center;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+}
