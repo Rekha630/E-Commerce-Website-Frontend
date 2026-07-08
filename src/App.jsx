@@ -12,7 +12,7 @@ import TodayDeals from "./Components/TodayDeals/TodayDeals";
 import BestSellers from "./Components/BestSellers/BestSellers";
 import OfferBanner from "./Components/OfferBanner/OfferBanner";
 import Testimonials from "./Components/Testimonials/Testimonials";
-import Newsletter from "./Components/NewsLetter/NewsLetter";
+import NewsLetter from "./Components/NewsLetter/NewsLetter";
 import Banner from "./Components/Banner/Banner";
 import FlashSale from "./Components/FlashSale/FlashSale";
 import FeaturedProducts from "./Components/FeaturedProducts/FeaturedProducts";
@@ -56,7 +56,7 @@ function HomePage() {
       <BestSellers />
       <OfferBanner />
       <Testimonials />
-      <Newsletter />
+      <NewsLetter />
     </>
   );
 }

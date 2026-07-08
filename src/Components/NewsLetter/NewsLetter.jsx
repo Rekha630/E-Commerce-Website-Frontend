@@ -1,6 +1,6 @@
-import "./Newsletter.css";
+import "./NewsLetter.css";
 
-function Newsletter() {
+function NewsLetter() {
   return (
     <section className="newsletter">
       <div className="newsletter-container">
@@ -23,4 +23,4 @@ function Newsletter() {
   );
 }
 
-export default Newsletter;
+export default NewsLetter;
